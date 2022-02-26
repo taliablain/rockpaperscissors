@@ -53,7 +53,6 @@ while True:
 
     rps_game()
 
-
     replay = input('play again? (y/n): ')
     if replay.lower() != 'y':
         break
