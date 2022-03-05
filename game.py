@@ -1,5 +1,4 @@
 import rockpaperscisssors
-import rockpaperscisssors as module
 
 replay = ' '
 
