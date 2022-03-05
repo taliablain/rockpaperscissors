@@ -51,14 +51,14 @@ def rps_game():
 
     decide_winner(choice, computer_choice)
 
-rps_game()
+    while True:
+        replay = input('play again? (y/n): ')
+        if replay.lower() != 'y':
+            sys.exit()
+        if replay.lower() == 'y':
+            rps_game()
 
-while True:
-    replay = input('play again? (y/n): ')
-    if replay.lower() != 'y':
-        sys.stdout()
-    if replay.lower() == 'y':
-        rps_game()
+rps_game()
 
 
 
